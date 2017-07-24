@@ -1,11 +1,21 @@
 {
-    "profiles": [
+    "title": "xargin modified caps",
+    "rules": [
         {
-            "name": "Default profile",
-            "selected": true,
-            "simple_modifications": {
-                "caps_lock": "left_control"
-            }
+            "description": "Change caps lock to left control",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "caps_lock"
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_control"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
